@@ -14,13 +14,25 @@ const FeaturedProductsSection = () => {
   ];
 
   return (
-    <Box sx={{ py: 12, bgcolor: "#FFF9F0" }}>
-      <Box display="flex" justifyContent="space-between" alignItems="center" flexWrap="wrap" mb={6}>
-        <Box>
-          <Typography variant="subtitle2" sx={{ mb: 1, color: "#4B5563", textTransform: "uppercase" }}>Koleksi Terbaru</Typography>
-          <Typography variant="h3" sx={{ fontWeight: 300 }}>Featured Products</Typography>
-        </Box>
-      </Box>
+    <Box id="new" sx={{ py: 12, bgcolor: "#FFF9F0" }}>
+      <Box
+  display="flex"
+  flexDirection="column"
+  alignItems="center" // center horizontal
+  textAlign="center" // text rata tengah
+  mb={8} 
+>
+  <Typography
+    variant="h3"
+    sx={{
+      fontWeight: 300,
+      letterSpacing: 2, // memberi kesan modern
+      lineHeight: 1.2,
+    }}
+  >
+    Koleksi Terbaru
+  </Typography>
+</Box>
 
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, justifyContent: "center" }}>
         {products.map(product => (

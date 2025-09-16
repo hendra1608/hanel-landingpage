@@ -58,7 +58,6 @@ const About = () => {
           <Box sx={{ maxWidth: 600, px: 8 }}>
             <Box component="img" src="/logo.png" alt="HANEL Logo" sx={{ height: 75, my:10 }} />
 
-            
             <Typography 
               variant="body1" 
               sx={{ 

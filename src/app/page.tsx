@@ -8,11 +8,13 @@ import BrandStorySection from "@/components/Sections/BrandStorySection";
 import ServicesSection from "@/components/Sections/ServicesSection";
 import Footer from "@/components/Footer/Footer";
 import Collection from "@/components/Collection/Collection";
+import Hero from "@/components/Hero/Hero";
 
 const LandingPage = () => {
   return (
     <>
       <Navbar />
+      <Hero/>
       <BrandValuesSection />
       <FeaturedProductsSection />
       <CollectionsSection />

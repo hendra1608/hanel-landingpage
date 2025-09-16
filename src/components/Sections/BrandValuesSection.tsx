@@ -28,7 +28,7 @@ const BrandValuesSection = () => {
   ];
 
   return (
-    <Box sx={{ py: 12, bgcolor: "#F9FAFB" }}>
+    <Box id="brand-values" sx={{ py: 12, bgcolor: "#F9FAFB" }}>
       <Box textAlign="center" mb={8}>
         <Typography variant="subtitle2" sx={{ textTransform: "uppercase", mb: 2 }}>Mengapa Hanel</Typography>
         <Typography variant="h3" sx={{ fontWeight: 300, mb: 4 }}>Nilai Brand Kami</Typography>

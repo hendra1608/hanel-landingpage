@@ -4,8 +4,9 @@ import { Box, Typography, Button } from "@mui/material";
 export default function Hero() {
   return (
     <Box
+    id="Hero"
       sx={{
-        minHeight: "80vh",
+        minHeight: "100vh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

@@ -29,6 +29,7 @@ const instagramPosts = [
 export default function Collection() {
   return (
     <Box
+    id="instagram"
   sx={{
     py: 8,
     width: "100vw",          // full width viewport

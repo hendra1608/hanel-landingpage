@@ -12,10 +12,10 @@ const CollectionsSection = () => {
   ];
 
   return (
-    <Box sx={{ py: 12, bgcolor: "white" }}>
+    <Box id="collection" sx={{ py: 12, bgcolor: "white" }}>
       <Box textAlign="center" mb={8}>
         <Typography variant="subtitle2" sx={{ textTransform: "uppercase", mb: 2 }}>Explore</Typography>
-        <Typography variant="h3" sx={{ fontWeight: 300 }}>Our Collections</Typography>
+        <Typography variant="h3" sx={{ fontWeight: 300 }}>Our Products</Typography>
       </Box>
 
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 4, justifyContent: "center" }}>

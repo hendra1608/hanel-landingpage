@@ -24,17 +24,17 @@ const SocialIconButton = styled(IconButton)(({ theme }) => ({
 }));
 
 const socials = [
-  { name: "Instagram", icon: <InstagramIcon sx={{ fontSize: 40 }} />, url: "https://instagram.com/username" },
-  { name: "TikTok", icon: <TikTokIcon sx={{ fontSize: 40 }} />, url: "https://www.tiktok.com/@username" },
-  { name: "Shopee", icon: <ShoppingCartIcon sx={{ fontSize: 40 }} />, url: "https://shopee.co.id/username" },
-  { name: "WhatsApp", icon: <WhatsAppIcon sx={{ fontSize: 40 }} />, url: "https://wa.me/08123456789" },
+  { name: "Instagram", icon: <InstagramIcon sx={{ fontSize: 40 }} />, url: "https://www.instagram.com/hanelstore/" },
+  { name: "TikTok", icon: <TikTokIcon sx={{ fontSize: 40 }} />, url: "https://www.tiktok.com/@hanelstore" },
+  { name: "Shopee", icon: <ShoppingCartIcon sx={{ fontSize: 40 }} />, url: "https://shopee.co.id/hanelstore17" },
+  { name: "WhatsApp", icon: <WhatsAppIcon sx={{ fontSize: 40 }} />, url: "https://wa.me/+6285880282557" },
 ];
 
 const ServicesSection = () => {
   const theme = useTheme();
 
   return (
-    <Box sx={{ py: 16, bgcolor: "#F3F4F6" }}>
+    <Box id="sosmed" sx={{ py: 16, bgcolor: "#F3F4F6" }}>
       <Box textAlign="center" mb={10}>
         <Typography variant="subtitle2" sx={{ textTransform: "uppercase", mb: 2, color: theme.palette.secondary.main }}>
           Follow & Shop
