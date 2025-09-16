@@ -28,19 +28,50 @@ const Footer = () => {
 
         {/* Social Media */}
         <Box sx={{ display: "flex", justifyContent: "center", gap: 3, mb: 3 }}>
-          <SocialIcon href="https://www.instagram.com/hanelstore" target="_blank">
-            <Instagram />
-          </SocialIcon>
-          <SocialIcon href="https://www.tiktok.com/@hanelstore" target="_blank">
-            <MusicNote />
-          </SocialIcon>
-          <SocialIcon href="https://wa.me/+6285880282557" target="_blank">
-            <WhatsApp />
-          </SocialIcon>
-          <SocialIcon href="https://shopee.co.id/username" target="_blank">
-            <ShoppingCart />
-          </SocialIcon>
-        </Box>
+  <Box
+    component="a"
+    href="https://www.instagram.com/hanelstore"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <SocialIcon>
+      <Instagram />
+    </SocialIcon>
+  </Box>
+
+  <Box
+    component="a"
+    href="https://www.tiktok.com/@hanelstore"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <SocialIcon>
+      <MusicNote />
+    </SocialIcon>
+  </Box>
+
+  <Box
+    component="a"
+    href="https://wa.me/+6285880282557"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <SocialIcon>
+      <WhatsApp />
+    </SocialIcon>
+  </Box>
+
+  <Box
+    component="a"
+    href="https://shopee.co.id/username"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <SocialIcon>
+      <ShoppingCart />
+    </SocialIcon>
+  </Box>
+</Box>
 
         {/* Copyright */}
         <Typography variant="body2" sx={{ mb: 1, opacity: 0.8 }}>
